@@ -1,0 +1,21 @@
+.navigations-div {
+    position: absolute;
+    left: 48px;
+    top: 180px;
+}
+
+.nav-name {
+    width: 62px;
+    height: 20px;
+
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    padding-bottom: 30px;
+
+    color: #9E9E9E;
+
+    cursor: pointer;
+}

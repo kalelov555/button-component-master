@@ -1,0 +1,14 @@
+.navBrand {
+    position: absolute;
+    width: 114px;
+    height: 20px;
+    left: 60px;
+    top: 38px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 19px;
+
+    color: #F7542E;
+}
