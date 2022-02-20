@@ -1,6 +1,7 @@
 import React from "react";
 import "../css/ButtonsDiv.css";
-import Btn from "./Btn";
+import Btn from "./Btn"; 
+import LocalGroceryStoreIcon from "@mui/icons-material/LocalGroceryStore";
 
 
 export default function ButtonsDiv() {
@@ -10,13 +11,16 @@ export default function ButtonsDiv() {
         <Btn />
         <Btn hover focus />
 <br></br>
-        <Btn variant="outline-primary" />
-        <Btn variant="outline-primary" hover focus/>
+        <Btn variant="outlined" color="warning"/>
+        <Btn variant="outlined" color="primary" hover focus/>
 <br></br>
-        <Btn variant="text"/>
+        <Btn variant="contained"/>
         <Btn variant="text" hover focus/>
 <br></br>
-        <Btn disableShadow/>
+        <Btn disabled size="medium"/>
+        <Btn startIcon={<LocalGroceryStoreIcon />} />
+<br></br>
+        <Btn endIcon={<LocalGroceryStoreIcon />}/>
       </div>
     );
 }
